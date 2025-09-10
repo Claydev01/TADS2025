@@ -1,14 +1,13 @@
 #include <stdio.h>
 
 int main()
+{   // declaração de Variável 
+    int soma = 0; 
 
-{ // Variável para armazenar a soma
-    int soma = 0;
-
-    // Laço for que percorre
+    // Laço for que percorre 
     for (int i = 1; i <= 100; i++)
     {
-        soma = i++; // Adiciona o número atual à soma
+        soma = soma + i; 
     }
 
     // Imprime o resultado
